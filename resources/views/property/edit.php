@@ -12,7 +12,7 @@ $property = $property[0];
     <title>Atualizar imóvel</title>
 </head>
 <body>
-<form action="<?= url('/imoveis/update',['name' => $property->url]) ?>" method="post">
+<form action="<?= url('/imoveis/update',['id' => $property->id]) ?>" method="post">
     <?= csrf_field();?>
     <?= method_field('PUT');?>
     <input type="text"  name="title" id="title"  value="<?php echo $property->title ?>" placeholder="Title"><br>
