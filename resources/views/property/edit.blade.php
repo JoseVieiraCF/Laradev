@@ -1,17 +1,9 @@
-
-<!doctype html>
-<html lang="pt-br">
+@extends('property.master')
+@section('content')
 <?php
 $property = $property[0];
 ?>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Atualizar imóvel</title>
-</head>
-<body>
+
 <form action="<?= url('/imoveis/update',['id' => $property->id]) ?>" method="post">
     <?= csrf_field();?>
     <?= method_field('PUT');?>
@@ -21,7 +13,6 @@ $property = $property[0];
     <input type="text" value="<?php echo $property->sale_price ?>" name="sale_price" id="sale   _price" placeholder="Sale price"><br>
     <input type="submit" value="Atualizar">
 </form>
+@endsection
 
-</body>
-</html>
 

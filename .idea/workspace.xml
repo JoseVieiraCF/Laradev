@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9207b7c-4828-44b5-b375-58bc8f25a665" name="Default Changelist" comment="Friendly Url">
-      <change afterPath="$PROJECT_DIR$/app/Property.php" afterDir="false" />
+    <list default="true" id="b9207b7c-4828-44b5-b375-58bc8f25a665" name="Default Changelist" comment="Models-Eloquent ORM">
+      <change afterPath="$PROJECT_DIR$/resources/views/property/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PropertyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/property/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/property/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/property/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/property/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/property/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/property/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/property/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +190,8 @@
       <updated>1604175482874</updated>
       <workItem from="1604175485767" duration="1366000" />
       <workItem from="1604176896455" duration="2074000" />
-      <workItem from="1604234065535" duration="19301000" />
+      <workItem from="1604234065535" duration="22657000" />
+      <workItem from="1604323109735" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="Friendly Url">
       <created>1604252907182</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604252907182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Models-Eloquent ORM">
+      <created>1604256459666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604256459666</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,12 +223,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Setting routes, controllers and views" />
     <MESSAGE value="Friendly Url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Friendly Url" />
+    <MESSAGE value="Models-Eloquent ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Models-Eloquent ORM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="208" key="#Notifications" timestamp="1604241385783">
@@ -234,14 +245,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="455" y="89" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1604178079079" />
-    <state x="517" y="307" key="NewPhpFileDialog" timestamp="1604250798836">
+    <state x="517" y="307" key="NewPhpFileDialog" timestamp="1604256887802">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1604250798836" />
+    <state x="517" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1604256887802" />
     <state x="184" y="29" key="SettingsEditor" timestamp="1604176962581">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1604176962581" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604263918895">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1604263918895" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604249801795">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
